@@ -27,7 +27,11 @@
   "engines": {
     "node": ">=10"
   },
-  "dependencies": {},
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.9.3",
+    "@rari-capital/solmate": "^6.4.0",
+    "hardhat-contract-sizer": "^2.10.0"
+  },
   "devDependencies": {
     "@nomiclabs/hardhat-ethers": "^2.0.2",
     "@nomiclabs/hardhat-etherscan": "^2.1.8",
